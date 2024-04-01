@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		745F32F78A1947FCB54653BA /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1CBC7FC3E31A4FE0A68D6047 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				02FEED3D63700228772F5303 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				B932E13F040F447FAA254E7C /* PBXTargetDependency */,
+				958DC85E2272485B98CFD053 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		795DAF8F05CC401BA755C1F0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AF9B54596B3441A88DE01CFF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5B4BB21EC4CFA478CF8373FC /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		09B0C71F84D24FAFB823B60B /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/lab2.cpp */ = {isa = PBXBuildFile; fileRef = C7BD927FEBD7440C800DCE7C /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/lab2.cpp */; };
+		10BCF3E6EB5B49D7B780A09F /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/set.cpp */ = {isa = PBXBuildFile; fileRef = 08F2A5982693448B9935F049 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/set.cpp */; };
+		15B7304A5DF6477CA23E0114 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/set.h */ = {isa = PBXBuildFile; fileRef = D39B309E506646C8B35555D0 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/set.h */; };
+		47FA8342A0C747399A909C76 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5C007BD71D41490BA48A2DAE /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/CMakeLists.txt */; };
+		6FBB679FB9AB41EEAD08D941 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/node.h */ = {isa = PBXBuildFile; fileRef = F8269ACB27C44075BE810CBB /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/node.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0FAB8BF9F45343619F1B08ED /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		1FB0DA35787B43FD9E171F7A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		5C4DE62515654E609025F75D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		68D3D879E32B4461AB7E05B7 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		165BC42939DB4BB5AC4B9EF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC2EBCC0F0F4D8DA7AF1BCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 795DAF8F05CC401BA755C1F0;
+			remoteInfo = ZERO_CHECK;
+		};
+		BEBC4C0683BB4A0C9220CF3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC2EBCC0F0F4D8DA7AF1BCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0CEE6A75884E08A8EF8865;
+			remoteInfo = Lab2;
+		};
+		C8661A4AFFAD427788FF6240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC2EBCC0F0F4D8DA7AF1BCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 795DAF8F05CC401BA755C1F0;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08F2A5982693448B9935F049 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/set.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = set.cpp; path = set.cpp; sourceTree = SOURCE_ROOT; };
+		0F80EE57AFB649CE927C543B /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		56B9C13FE79849278BB28894 /* Lab2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Lab2; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C007BD71D41490BA48A2DAE /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C7BD927FEBD7440C800DCE7C /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/lab2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lab2.cpp; path = lab2.cpp; sourceTree = SOURCE_ROOT; };
+		D39B309E506646C8B35555D0 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/set.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = set.h; path = set.h; sourceTree = SOURCE_ROOT; };
+		F8269ACB27C44075BE810CBB /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/node.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = node.h; path = node.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA972B22775C457496EC76C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F495E86E24544EA82E17E4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56B9C13FE79849278BB28894 /* Lab2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42B06DACAFF94F78969C6BD9 /* Lab2 */ = {
+			isa = PBXGroup;
+			children = (
+				EBC9826B81294774AFA11C25 /* Source Files */,
+				E8960DB97C87413DA6DB3107 /* Header Files */,
+				5C007BD71D41490BA48A2DAE /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/CMakeLists.txt */,
+			);
+			name = Lab2;
+			sourceTree = "<group>";
+		};
+		5AA563BD230041078CF55085 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				81464F1537F847C488483023 /* CMake Rules */,
+				0F80EE57AFB649CE927C543B /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		81464F1537F847C488483023 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B560E7BE78B04E2D8F6C70FC = {
+			isa = PBXGroup;
+			children = (
+				42B06DACAFF94F78969C6BD9 /* Lab2 */,
+				5AA563BD230041078CF55085 /* ALL_BUILD */,
+				1F495E86E24544EA82E17E4D /* Products */,
+				EE78478D2EA94B7FBF8AC5B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8960DB97C87413DA6DB3107 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8269ACB27C44075BE810CBB /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/node.h */,
+				D39B309E506646C8B35555D0 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/set.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		EBC9826B81294774AFA11C25 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7BD927FEBD7440C800DCE7C /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/lab2.cpp */,
+				08F2A5982693448B9935F049 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/set.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EE78478D2EA94B7FBF8AC5B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0CEE6A75884E08A8EF8865 /* Lab2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1A9BAC8715848B5BDE57302 /* Build configuration list for PBXNativeTarget "Lab2" */;
+			buildPhases = (
+				E69443C966374554AFB5CC35 /* Sources */,
+				AA972B22775C457496EC76C7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93FC9D080245420D89999857 /* PBXTargetDependency */,
+			);
+			name = Lab2;
+			productName = Lab2;
+			productReference = 56B9C13FE79849278BB28894 /* Lab2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC2EBCC0F0F4D8DA7AF1BCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = E3D0633F895A46D697A370F0 /* Build configuration list for PBXProject "TND004-Lab-2" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				5C4DE62515654E609025F75D /* Debug */,
+				68D3D879E32B4461AB7E05B7 /* Release */,
+				1FB0DA35787B43FD9E171F7A /* MinSizeRel */,
+				0FAB8BF9F45343619F1B08ED /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B560E7BE78B04E2D8F6C70FC;
+			projectDirPath = "/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code";
+			projectRoot = "";
+			targets = (
+				745F32F78A1947FCB54653BA /* ALL_BUILD */,
+				3F0CEE6A75884E08A8EF8865 /* Lab2 */,
+				795DAF8F05CC401BA755C1F0 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02FEED3D63700228772F5303 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build\"
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5B4BB21EC4CFA478CF8373FC /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build\"
+  make -f /Users/klarabratteby/Desktop/Skola/TND004/Lab\\ 2/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build\"
+  make -f /Users/klarabratteby/Desktop/Skola/TND004/Lab\\ 2/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build\"
+  make -f /Users/klarabratteby/Desktop/Skola/TND004/Lab\\ 2/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build\"
+  make -f /Users/klarabratteby/Desktop/Skola/TND004/Lab\\ 2/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E69443C966374554AFB5CC35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B0C71F84D24FAFB823B60B /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/lab2.cpp */,
+				10BCF3E6EB5B49D7B780A09F /* /Users/klarabratteby/Desktop/Skola/TND004/Lab 2/code/set.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93FC9D080245420D89999857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 795DAF8F05CC401BA755C1F0 /* ZERO_CHECK */;
+			targetProxy = C8661A4AFFAD427788FF6240 /* PBXContainerItemProxy */;
+		};
+		958DC85E2272485B98CFD053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 795DAF8F05CC401BA755C1F0 /* ZERO_CHECK */;
+			targetProxy = 165BC42939DB4BB5AC4B9EF6 /* PBXContainerItemProxy */;
+		};
+		B932E13F040F447FAA254E7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0CEE6A75884E08A8EF8865 /* Lab2 */;
+			targetProxy = BEBC4C0683BB4A0C9220CF3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01B3F8F1616145CDB513691C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0A2F642EBC644BBBB733D2C8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		125AE6D18D4A48F7B79E743F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2CDAC858EEF7424580743110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2E13E35E15AD4B12A5C62B8A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build/build";
+			};
+			name = MinSizeRel;
+		};
+		40C9D6891C184B388D6BC429 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		42A857C5CAAE4D5DBBCBB4C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		46ACF31A83F945FDB1A48277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5BA13984A56C449C9861497C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++2b' -Wall -Wextra ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build/build/Lab2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5E69CF7506C44968B4DDE704 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		61759602388B4ECEAFBFF118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build/build";
+			};
+			name = Release;
+		};
+		68FC24C0C38244E99E4DD0A4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++2b' -Wall -Wextra ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build/build/Lab2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A1AB9DCD2B1D4E689A86E920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++2b' -Wall -Wextra ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build/build/Lab2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A92482CD0D96438E9BB29D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build/build";
+			};
+			name = Debug;
+		};
+		C2032F0EA12741AABFFA502D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		F4220348566A4533BB88DD56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++2b' -Wall -Wextra ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klarabratteby/Desktop/Skola/TND004/Lab 2/build/build/Lab2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CBC7FC3E31A4FE0A68D6047 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B3F8F1616145CDB513691C /* Debug */,
+				46ACF31A83F945FDB1A48277 /* Release */,
+				5E69CF7506C44968B4DDE704 /* MinSizeRel */,
+				125AE6D18D4A48F7B79E743F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AF9B54596B3441A88DE01CFF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A857C5CAAE4D5DBBCBB4C6 /* Debug */,
+				2CDAC858EEF7424580743110 /* Release */,
+				40C9D6891C184B388D6BC429 /* MinSizeRel */,
+				0A2F642EBC644BBBB733D2C8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E3D0633F895A46D697A370F0 /* Build configuration list for PBXProject "TND004-Lab-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92482CD0D96438E9BB29D1C /* Debug */,
+				61759602388B4ECEAFBFF118 /* Release */,
+				2E13E35E15AD4B12A5C62B8A /* MinSizeRel */,
+				C2032F0EA12741AABFFA502D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F1A9BAC8715848B5BDE57302 /* Build configuration list for PBXNativeTarget "Lab2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4220348566A4533BB88DD56 /* Debug */,
+				A1AB9DCD2B1D4E689A86E920 /* Release */,
+				5BA13984A56C449C9861497C /* MinSizeRel */,
+				68FC24C0C38244E99E4DD0A4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC2EBCC0F0F4D8DA7AF1BCB /* Project object */;
+}

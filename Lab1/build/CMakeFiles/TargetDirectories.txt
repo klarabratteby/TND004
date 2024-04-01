@@ -1,0 +1,3 @@
+/Users/klarabratteby/Desktop/Skola/TND004/Lab 1/build/CMakeFiles/Lab1.dir
+/Users/klarabratteby/Desktop/Skola/TND004/Lab 1/build/CMakeFiles/ALL_BUILD.dir
+/Users/klarabratteby/Desktop/Skola/TND004/Lab 1/build/CMakeFiles/ZERO_CHECK.dir

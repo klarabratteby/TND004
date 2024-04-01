@@ -1,0 +1,981 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		48D8E221FE6D4082B42D9D09 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DB735D40BF774316BBA903A3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5088C09567B9C7965526F187 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		8E51AF1C32CF4EF58F65679F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DB7A88B2052545B29C873E97 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3022C8850FFA5F68A19E28B9 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				7AC382C6C9D34A09BDCCC8AD /* PBXTargetDependency */,
+				AF99360CEA874C7D990D906E /* PBXTargetDependency */,
+				7E404FD713424A7581872A7B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0514C5B79C254BF1A67F5670 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph1_test_run.txt */ = {isa = PBXBuildFile; fileRef = 569E943F0FA34CD49265683F /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph1_test_run.txt */; };
+		179B380D84F548C091CABC52 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/dsets.h */ = {isa = PBXBuildFile; fileRef = 29662B8D6EBE4A44927FDFBC /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/dsets.h */; };
+		1CBBA07E1CC34FD085AE7637 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph2_test_run.txt */ = {isa = PBXBuildFile; fileRef = 0DEF545BFAEA4FE3912E1CEC /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph2_test_run.txt */; };
+		26FD874DFC5B456E8DEDD342 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph1.txt */ = {isa = PBXBuildFile; fileRef = 97F91F51F76149B58D3C1718 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph1.txt */; };
+		2B12D12C3DC64D3D96C0958D /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/main.cpp */ = {isa = PBXBuildFile; fileRef = E4F0FC18DA28489EBA621D1A /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/main.cpp */; };
+		3EB40E6637A44949AC2686E8 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/dsets.cpp */ = {isa = PBXBuildFile; fileRef = 7E5EBF6A51A741C5AE63E470 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/dsets.cpp */; };
+		481136242AE047FBB09055CB /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/edge.h */ = {isa = PBXBuildFile; fileRef = 94607731644144FD92C98BE7 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/edge.h */; };
+		5753CD11FA95402387A78DF1 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph1_test_run.txt */ = {isa = PBXBuildFile; fileRef = 8FC7A3A8CEED4006B0288D9F /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph1_test_run.txt */; };
+		78FDE97034CC48C59DF1A98E /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0E13B93BD5A04EFB91EFE9A5 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/CMakeLists.txt */; };
+		B1531B3BF597458C82D2F1C4 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph.h */ = {isa = PBXBuildFile; fileRef = A3BA5B7E77584EA9A6781709 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph.h */; };
+		BC6AE1EF55C5493589AFE80D /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/edge.h */ = {isa = PBXBuildFile; fileRef = E53FA4A3F3BA4A10BE2858D1 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/edge.h */; };
+		D7699AEF00D54A2485C65699 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1555E0A1126943CA88497E8D /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/CMakeLists.txt */; };
+		DDE01A718573494880CBEBEF /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph.cpp */ = {isa = PBXBuildFile; fileRef = AE0AD021EF514595BC161085 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph.cpp */; };
+		E1BB62DB307448C5808AC18B /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph1.txt */ = {isa = PBXBuildFile; fileRef = F915F9F5959A4105A459A2B4 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph1.txt */; };
+		E5D8B43EFF54495790C2BADE /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph2.txt */ = {isa = PBXBuildFile; fileRef = F1A7638F89DD462DAE9B376D /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph2.txt */; };
+		EE19C5B3FC8249F58C5B92AD /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/main.cpp */ = {isa = PBXBuildFile; fileRef = C933F0D8E8604723A7FBD5DF /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/main.cpp */; };
+		F4A60605FA9D42839F479D37 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph.cpp */ = {isa = PBXBuildFile; fileRef = 56348B67742A4650B8867EF3 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph.cpp */; };
+		F6BC1AF608E0454F8C6FEC4B /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph2_test_run.txt */ = {isa = PBXBuildFile; fileRef = 2CF8344D5D9F4836A255BB43 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph2_test_run.txt */; };
+		F7566DFF79CA46A09958CBEF /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph2.txt */ = {isa = PBXBuildFile; fileRef = 6EF01B91694B4E7B8990794E /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph2.txt */; };
+		FB694326493A42AAB94EE0E3 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph.h */ = {isa = PBXBuildFile; fileRef = 6E3E68EFBB6744969F8A36A2 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		05412552624A439DBE0454B4 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		17569963DBC54F01BA42CCA1 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		80AB16280AAD4D13864D12E3 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		CE764F2BCD7F411E98D1910F /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		228E7511908345FEBA7695F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C620C6A5E684584ACC735A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA8B2E61E726476DB16C140B;
+			remoteInfo = Lab4b;
+		};
+		AC38B534A6F7474D8F4B9257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C620C6A5E684584ACC735A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75DA822D4F6A49B2A896257B;
+			remoteInfo = Lab4a;
+		};
+		C332DFEC78884C17BC238AD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C620C6A5E684584ACC735A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48D8E221FE6D4082B42D9D09;
+			remoteInfo = ZERO_CHECK;
+		};
+		CE2184C53D7843C29C90B8EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C620C6A5E684584ACC735A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48D8E221FE6D4082B42D9D09;
+			remoteInfo = ZERO_CHECK;
+		};
+		FDE2E6F1F72348299FE466D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C620C6A5E684584ACC735A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48D8E221FE6D4082B42D9D09;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DEF545BFAEA4FE3912E1CEC /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph2_test_run.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = digraph2_test_run.txt; path = code4a/digraph2_test_run.txt; sourceTree = SOURCE_ROOT; };
+		0E13B93BD5A04EFB91EFE9A5 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1555E0A1126943CA88497E8D /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		211C0641D9654E19A3E60E95 /* Lab4b */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Lab4b; sourceTree = BUILT_PRODUCTS_DIR; };
+		29662B8D6EBE4A44927FDFBC /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/dsets.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dsets.h; path = code4b/dsets.h; sourceTree = SOURCE_ROOT; };
+		2CF8344D5D9F4836A255BB43 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph2_test_run.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = graph2_test_run.txt; path = code4b/graph2_test_run.txt; sourceTree = SOURCE_ROOT; };
+		4A0F1F8548C1480BA18D5251 /* Lab4a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Lab4a; sourceTree = BUILT_PRODUCTS_DIR; };
+		56348B67742A4650B8867EF3 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = digraph.cpp; path = code4a/digraph.cpp; sourceTree = SOURCE_ROOT; };
+		569E943F0FA34CD49265683F /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph1_test_run.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = digraph1_test_run.txt; path = code4a/digraph1_test_run.txt; sourceTree = SOURCE_ROOT; };
+		6E3E68EFBB6744969F8A36A2 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = graph.h; path = code4b/graph.h; sourceTree = SOURCE_ROOT; };
+		6EF01B91694B4E7B8990794E /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph2.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = graph2.txt; path = code4b/graph2.txt; sourceTree = SOURCE_ROOT; };
+		7E5EBF6A51A741C5AE63E470 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/dsets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dsets.cpp; path = code4b/dsets.cpp; sourceTree = SOURCE_ROOT; };
+		8FC7A3A8CEED4006B0288D9F /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph1_test_run.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = graph1_test_run.txt; path = code4b/graph1_test_run.txt; sourceTree = SOURCE_ROOT; };
+		94607731644144FD92C98BE7 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/edge.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = edge.h; path = code4a/edge.h; sourceTree = SOURCE_ROOT; };
+		97F91F51F76149B58D3C1718 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph1.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = graph1.txt; path = code4b/graph1.txt; sourceTree = SOURCE_ROOT; };
+		A3BA5B7E77584EA9A6781709 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = digraph.h; path = code4a/digraph.h; sourceTree = SOURCE_ROOT; };
+		AE0AD021EF514595BC161085 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graph.cpp; path = code4b/graph.cpp; sourceTree = SOURCE_ROOT; };
+		C933F0D8E8604723A7FBD5DF /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = code4b/main.cpp; sourceTree = SOURCE_ROOT; };
+		C9629828D8F64BD3B1599411 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E4F0FC18DA28489EBA621D1A /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = code4a/main.cpp; sourceTree = SOURCE_ROOT; };
+		E53FA4A3F3BA4A10BE2858D1 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/edge.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = edge.h; path = code4b/edge.h; sourceTree = SOURCE_ROOT; };
+		F1A7638F89DD462DAE9B376D /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph2.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = digraph2.txt; path = code4a/digraph2.txt; sourceTree = SOURCE_ROOT; };
+		F915F9F5959A4105A459A2B4 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph1.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = digraph1.txt; path = code4a/digraph1.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94CC6E36002043D68957F583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC417B27057246E5883519B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0179E9476E8C44C4BD48F234 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		19BD77E41B9C4A0A98F0298D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D97086B40D945EEB760D0D8 = {
+			isa = PBXGroup;
+			children = (
+				CDDC44B05C6D44D0AF21B5A7 /* Lab4a */,
+				D30EDFD25F814E20AB288730 /* Lab4b */,
+				B1DC55D14A9545A7AEA5DAF6 /* ALL_BUILD */,
+				FC3F9E265C07434192BFD961 /* Products */,
+				19BD77E41B9C4A0A98F0298D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		388B71D9229B47DF876CBA3B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3BA5B7E77584EA9A6781709 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph.h */,
+				94607731644144FD92C98BE7 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/edge.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		5C349B8DA82A46ED8E59EEC9 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E5EBF6A51A741C5AE63E470 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/dsets.cpp */,
+				AE0AD021EF514595BC161085 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph.cpp */,
+				C933F0D8E8604723A7FBD5DF /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A1922F58DF6945B985C7A4A4 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				29662B8D6EBE4A44927FDFBC /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/dsets.h */,
+				E53FA4A3F3BA4A10BE2858D1 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/edge.h */,
+				6E3E68EFBB6744969F8A36A2 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A19441A869B84F16BD08A6FD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				56348B67742A4650B8867EF3 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph.cpp */,
+				E4F0FC18DA28489EBA621D1A /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B1DC55D14A9545A7AEA5DAF6 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0179E9476E8C44C4BD48F234 /* CMake Rules */,
+				C9629828D8F64BD3B1599411 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		CDDC44B05C6D44D0AF21B5A7 /* Lab4a */ = {
+			isa = PBXGroup;
+			children = (
+				388B71D9229B47DF876CBA3B /* Header Files */,
+				A19441A869B84F16BD08A6FD /* Source Files */,
+				0E13B93BD5A04EFB91EFE9A5 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/CMakeLists.txt */,
+				F915F9F5959A4105A459A2B4 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph1.txt */,
+				569E943F0FA34CD49265683F /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph1_test_run.txt */,
+				F1A7638F89DD462DAE9B376D /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph2.txt */,
+				0DEF545BFAEA4FE3912E1CEC /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph2_test_run.txt */,
+			);
+			name = Lab4a;
+			sourceTree = "<group>";
+		};
+		D30EDFD25F814E20AB288730 /* Lab4b */ = {
+			isa = PBXGroup;
+			children = (
+				A1922F58DF6945B985C7A4A4 /* Header Files */,
+				5C349B8DA82A46ED8E59EEC9 /* Source Files */,
+				1555E0A1126943CA88497E8D /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/CMakeLists.txt */,
+				97F91F51F76149B58D3C1718 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph1.txt */,
+				8FC7A3A8CEED4006B0288D9F /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph1_test_run.txt */,
+				6EF01B91694B4E7B8990794E /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph2.txt */,
+				2CF8344D5D9F4836A255BB43 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph2_test_run.txt */,
+			);
+			name = Lab4b;
+			sourceTree = "<group>";
+		};
+		FC3F9E265C07434192BFD961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0F1F8548C1480BA18D5251 /* Lab4a */,
+				211C0641D9654E19A3E60E95 /* Lab4b */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75DA822D4F6A49B2A896257B /* Lab4a */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B060BB0A4FF8481AB823508F /* Build configuration list for PBXNativeTarget "Lab4a" */;
+			buildPhases = (
+				A8E5A9D048654A4DAFA94E1F /* Sources */,
+				94CC6E36002043D68957F583 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB179E8745B46CB845270CF /* PBXTargetDependency */,
+			);
+			name = Lab4a;
+			productName = Lab4a;
+			productReference = 4A0F1F8548C1480BA18D5251 /* Lab4a */;
+			productType = "com.apple.product-type.tool";
+		};
+		DA8B2E61E726476DB16C140B /* Lab4b */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C469EAE24C0D4A1697143FE3 /* Build configuration list for PBXNativeTarget "Lab4b" */;
+			buildPhases = (
+				044587341F174844BD13B251 /* Sources */,
+				CC417B27057246E5883519B5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D5103C63968493ABC502910 /* PBXTargetDependency */,
+			);
+			name = Lab4b;
+			productName = Lab4b;
+			productReference = 211C0641D9654E19A3E60E95 /* Lab4b */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C620C6A5E684584ACC735A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = 951BC53D69A04CB894A6F7BC /* Build configuration list for PBXProject "TND004-Lab-4" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				17569963DBC54F01BA42CCA1 /* Debug */,
+				80AB16280AAD4D13864D12E3 /* Release */,
+				05412552624A439DBE0454B4 /* MinSizeRel */,
+				CE764F2BCD7F411E98D1910F /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 2D97086B40D945EEB760D0D8;
+			projectDirPath = /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code;
+			projectRoot = "";
+			targets = (
+				8E51AF1C32CF4EF58F65679F /* ALL_BUILD */,
+				75DA822D4F6A49B2A896257B /* Lab4a */,
+				DA8B2E61E726476DB16C140B /* Lab4b */,
+				48D8E221FE6D4082B42D9D09 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3022C8850FFA5F68A19E28B9 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5088C09567B9C7965526F187 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build
+  make -f /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build
+  make -f /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build
+  make -f /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build
+  make -f /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044587341F174844BD13B251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB40E6637A44949AC2686E8 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/dsets.cpp */,
+				DDE01A718573494880CBEBEF /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/graph.cpp */,
+				EE19C5B3FC8249F58C5B92AD /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4b/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8E5A9D048654A4DAFA94E1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A60605FA9D42839F479D37 /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/digraph.cpp */,
+				2B12D12C3DC64D3D96C0958D /* /Users/klarabratteby/Desktop/Skola/TND004/Lab4this/code/code4a/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AC382C6C9D34A09BDCCC8AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75DA822D4F6A49B2A896257B /* Lab4a */;
+			targetProxy = AC38B534A6F7474D8F4B9257 /* PBXContainerItemProxy */;
+		};
+		7E404FD713424A7581872A7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48D8E221FE6D4082B42D9D09 /* ZERO_CHECK */;
+			targetProxy = C332DFEC78884C17BC238AD3 /* PBXContainerItemProxy */;
+		};
+		9D5103C63968493ABC502910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48D8E221FE6D4082B42D9D09 /* ZERO_CHECK */;
+			targetProxy = FDE2E6F1F72348299FE466D2 /* PBXContainerItemProxy */;
+		};
+		AF99360CEA874C7D990D906E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA8B2E61E726476DB16C140B /* Lab4b */;
+			targetProxy = 228E7511908345FEBA7695F0 /* PBXContainerItemProxy */;
+		};
+		DCB179E8745B46CB845270CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48D8E221FE6D4082B42D9D09 /* ZERO_CHECK */;
+			targetProxy = CE2184C53D7843C29C90B8EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AC6D25BE16943A884962159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4149D1C1F1D44DB59887868A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++2b' -Wall -Wextra ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab4a;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/build/Lab4a.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4892703F906A4CE394BA6FB7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++2b' -Wall -Wextra ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab4a;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/build/Lab4a.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		48B3FF3C76334BC083D550A2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4DA4C2781F884D6DBAEE3920 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++2b' -Wall -Wextra ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab4a;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/build/Lab4a.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		600F06B1B05E43959EA462C7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		647FD85F54DB43CFA820C639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++2b' -Wall -Wextra ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab4a;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/build/Lab4a.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8B09249F2E4949CD95D11F92 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/build;
+			};
+			name = MinSizeRel;
+		};
+		9CF767908D3240AE9CA536E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++2b' -Wall -Wextra ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab4b;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/build/Lab4b.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A272F446AD854D15933919CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A5F5F1BFEAA64A4E88836ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/build;
+			};
+			name = Debug;
+		};
+		AEEC53C6F71B4331A0F81BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B9E5DC9B337D465DAB4430E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BCD88854F9F0483788C3D52A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++2b' -Wall -Wextra ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab4b;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/build/Lab4b.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BFD0CDC537CE471A93B3A316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/build;
+			};
+			name = Release;
+		};
+		C51091E74147422D8D3F4846 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C6BC254FA2974837B94F798A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E6995397E37045B4AD83CC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++2b' -Wall -Wextra ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab4b;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/build/Lab4b.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EBECA8F362154C55B34117DE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F989E18E9A8C487B9F06BF5C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++2b' -Wall -Wextra ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab4b;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klarabratteby/Desktop/Skola/TND004/Lab4/build/build/Lab4b.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		951BC53D69A04CB894A6F7BC /* Build configuration list for PBXProject "TND004-Lab-4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F5F1BFEAA64A4E88836ED5 /* Debug */,
+				BFD0CDC537CE471A93B3A316 /* Release */,
+				8B09249F2E4949CD95D11F92 /* MinSizeRel */,
+				600F06B1B05E43959EA462C7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B060BB0A4FF8481AB823508F /* Build configuration list for PBXNativeTarget "Lab4a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4149D1C1F1D44DB59887868A /* Debug */,
+				647FD85F54DB43CFA820C639 /* Release */,
+				4DA4C2781F884D6DBAEE3920 /* MinSizeRel */,
+				4892703F906A4CE394BA6FB7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C469EAE24C0D4A1697143FE3 /* Build configuration list for PBXNativeTarget "Lab4b" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF767908D3240AE9CA536E7 /* Debug */,
+				E6995397E37045B4AD83CC7A /* Release */,
+				F989E18E9A8C487B9F06BF5C /* MinSizeRel */,
+				BCD88854F9F0483788C3D52A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DB735D40BF774316BBA903A3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEC53C6F71B4331A0F81BE1 /* Debug */,
+				B9E5DC9B337D465DAB4430E1 /* Release */,
+				48B3FF3C76334BC083D550A2 /* MinSizeRel */,
+				C6BC254FA2974837B94F798A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DB7A88B2052545B29C873E97 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A272F446AD854D15933919CB /* Debug */,
+				1AC6D25BE16943A884962159 /* Release */,
+				EBECA8F362154C55B34117DE /* MinSizeRel */,
+				C51091E74147422D8D3F4846 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C620C6A5E684584ACC735A5 /* Project object */;
+}
